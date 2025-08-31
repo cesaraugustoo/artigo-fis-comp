@@ -41,10 +41,10 @@ Foram escolhidos dois estados iniciais diferentes:
 O operador densidade do sistema satisfaz a equação mestra:
 
 $$
-\frac{d\rho}{dt} = -i[H, \rho] + \mathcal{L}_{\Gamma_{sp}} \rho + \mathcal{L}_{\kappa} \rho
+\frac{d\rho}{dt} = -i[H, \rho] + \mathcal{L}_{\Gamma}_{sp} \rho + \mathcal{L}_{\kappa} \rho
 $$
 
-onde $H$ é o Hamiltoniano completo, $\mathcal{L}_{\Gamma_{sp}}\rho = \Gamma_{sp} \left( \sigma_{-} \rho \sigma_{+} - \frac{1}{2}\{\sigma_{+}\sigma_{-}, \rho\}\right)$ e $\mathcal{L}_{\kappa}\rho = \kappa \left(b\rho b^{\dagger}-\frac{1}{2}\{b^{\dagger} b, \rho\}\right)$ representam emissão espontânea e amortecimento da cavidade, respectivamente.
+onde $H$ é o Hamiltoniano completo, $\mathcal{L}_{\Gamma}_{sp}}\rho = \Gamma_{sp} \left( \sigma_{-} \rho \sigma_{+} - \frac{1}{2}\{\sigma_{+}\sigma_{-}, \rho\}\right)$ e $\mathcal{L}_{\kappa}\rho = \kappa \left(b\rho b^{\dagger}-\frac{1}{2}\{b^{\dagger} b, \rho\}\right)$ representam emissão espontânea e amortecimento da cavidade, respectivamente.
 
 A validade da RWA é investigada comparando os resultados obtidos do Hamiltoniano completo e do Hamiltoniano RWA, via fidelidade entre as duas evoluções:
 
