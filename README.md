@@ -35,16 +35,16 @@ Entretanto, as oscilações que modulam os termos não-RWA podem se tornar compa
 
 Foram escolhidos dois estados iniciais diferentes:
 
-* **Clássico**: $\rho_1 = |e\rangle \langle e| \otimes |\beta\rangle \langle \beta| \otimes \rho_{th}$, onde o qubit está no estado excitado $e = \text{basis}(2,1)$, o campo da cavidade em um estado coerente com amplitude $\beta = 1$, e o movimento vibracional no estado térmico com número de ocupação médio $\bar{m}=2$.
+* **Clássico**: $\rho_1 = |e\rangle \langle e| \otimes |\beta\rangle \langle \beta| \otimes \rho_{th}$.
 * **Quântico**: $\rho_2 = |+\rangle \langle +| \otimes |n\rangle \langle n| \otimes |m\rangle \langle m|$, com $n = 1$ e $m = 2$.
 
 O operador densidade do sistema satisfaz a equação mestra:
 
 $$
-\frac{d\rho}{dt} = -i[H, \rho] + \mathcal{L}_{\Gamma}_{sp} \rho + \mathcal{L}_{\kappa} \rho
+\frac{d\rho}{dt} = -i[H, \rho]
 $$
 
-onde $H$ é o Hamiltoniano completo, $\mathcal{L}_{\Gamma}_{sp}}\rho = \Gamma_{sp} \left( \sigma_{-} \rho \sigma_{+} - \frac{1}{2}\{\sigma_{+}\sigma_{-}, \rho\}\right)$ e $\mathcal{L}_{\kappa}\rho = \kappa \left(b\rho b^{\dagger}-\frac{1}{2}\{b^{\dagger} b, \rho\}\right)$ representam emissão espontânea e amortecimento da cavidade, respectivamente.
+onde $H$ é o Hamiltoniano completo ou RWA.
 
 A validade da RWA é investigada comparando os resultados obtidos do Hamiltoniano completo e do Hamiltoniano RWA, via fidelidade entre as duas evoluções:
 
@@ -54,27 +54,13 @@ $$
 
 Para os indicadores de não-classeicidade, são considerados:
 
-* **Negatividade de Wigner (modo vibracional)**:
-
-$$
-N[\rho_{vib}] = \int d^2\alpha |W(\alpha)| - 1
-$$
-
-com $W(\alpha)$ sendo a função de Wigner.
-
 * **Estatísticas sub-Poissonianas (parâmetro R)**:
 
 $$
 R = 1 - \frac{\langle (\Delta n)^2 \rangle}{\langle n \rangle}
 $$
 
-* **Coerência para os níveis eletrônicos**:
-
-$$
-C(\rho) = S(\Pi[\rho]) - S(\rho)
-$$
-
-Além disso, são calculados os números médios de ocupação para cada subsistema.
+* **Números médios de ocupação para cada subsistema**
 
 ---
 
