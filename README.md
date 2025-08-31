@@ -49,7 +49,7 @@ onde $H$ é o Hamiltoniano completo ou RWA.
 A validade da RWA é investigada comparando os resultados obtidos do Hamiltoniano completo e do Hamiltoniano RWA, via fidelidade entre as duas evoluções:
 
 $$
-\mathcal{F}_{\pm}(t) = \text{Tr}\sqrt{\rho^{1/2}(t)\rho_{\pm}(t)\rho^{1/2}(t)}
+\mathcal{F \pm}(t) = \text{Tr}\sqrt{\rho^{1/2}(t)\rho_{\pm}(t)\rho^{1/2}(t)}
 $$
 
 Para os indicadores de não-classeicidade, são considerados:
